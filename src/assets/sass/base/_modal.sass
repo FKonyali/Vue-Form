@@ -1,0 +1,31 @@
+.modal
+  position: fixed
+  top: 0
+  left: 0
+  right: 0
+  bottom: 0
+  background: rgba(0,0,0,.6)
+  display: flex
+  align-items: center
+  justify-content: center
+
+  &__container
+    width: 600px
+    background: #FFF
+    max-width: 100%
+    padding: 40px 20px
+    text-align: center
+
+  &__inner
+    display: flex
+    flex-direction: column
+    color: #616161
+
+    &.is-success
+      i
+        color: #9acd32
+
+    i
+      font-size: 70px
+      margin-bottom: 30px
+      color: #ff5868
